@@ -21,5 +21,15 @@ This first function definition creates a function that prints a couple of lines.
 There may be functions that require arguments. Some functions require passing multiple values as arguments. These arguments are assigned to variables inside the function called parameters.
 
 ```
-def 
+def print_this(x):
+    print(x + 1)
 ```
+This function definition will take x as an argument. Inside the function the value of x is assigned to a mathematical operation which takes "x" and adds it to 1.
+```
+def print_this(x):
+    print(x + 1)
+
+print_this(12)
+>> 12
+```
+This shows what would be output if the print_this() function is called with an argument value of 12.
