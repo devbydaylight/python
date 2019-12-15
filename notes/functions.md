@@ -24,7 +24,7 @@ There may be functions that require arguments. Some functions require passing mu
 def print_this(x):
     print(x + 1)
 ```
-This function definition will take x as an argument. Inside the function, the value of x is assigned to a mathematical operation which takes "x" and adds 1 to it.
+This function definition will take x as an argument. Inside the function, the value of x is assigned to a mathematical operation which takes "x" and adds 1 to it. Remember that inside the function, the value x is assigned to a parameter.
 ```
 def print_this(x):
     print(x + 1)
