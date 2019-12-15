@@ -32,4 +32,4 @@ def print_this(x):
 print_this(12)
 >> 13
 ```
-This shows what the output would be if the print_this() function is called with a parameter value of 12.
+This shows what the output would be if the print_this() function is called with a argument value of 12.
