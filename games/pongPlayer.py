@@ -19,15 +19,27 @@ paddle_1 = turtle.Turtle() # creates turtle object
 paddle_1.speed(0) # sets speed of animation to max speed possible
 paddle_1.shape("square") # sets paddle shape to square
 paddle_1.color("white") 
+paddle_1.shapesize(stretch_wid=5, stretch_len=1) # default size is 20px by 20px, sets wid to 5 and len to 1
 paddle_1.penup() # stops turtle from drawing line as object moves *
-paddle_1.goto(-350, 0)
+paddle_1.goto(-350, 0) # sets paddle 1 to left side of screen
 
 
 # Paddle 2
-
+paddle_2 = turtle.Turtle()
+paddle_2.speed(0) 
+paddle_2.shape("square") 
+paddle_2.color("white") 
+paddle_2.shapesize(stretch_wid=5, stretch_len=1) 
+paddle_2.penup() 
+paddle_2.goto(+350, 0) # sets paddle 2 to right side of screen
 
 # Ball
-
+ball = turtle.Turtle()
+ball.speed(0) 
+ball.shape("square")
+ball.color("white") 
+ball.penup() 
+ball.goto(0, 0) # sets ball to middle of screen
 
 # Main game loop
 while True:
